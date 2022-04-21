@@ -9,8 +9,11 @@
 }
 
 body {
-  background-color: #eee;
-  font-family: 'Lato', sans-serif;
+  background-image: url(m.jpg);
+  background-position: center;
+  background-size: cover;
+  position : relative;
+  font-family: 'montserrat', sans-serif;
 }
 
 #page-wrapper {
@@ -22,7 +25,7 @@ li {
 }
 
 a {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
@@ -40,7 +43,7 @@ a {
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
-  border: 3px black solid;
+  border: 3px white;
   border-radius: 2px;
   background: transparent;
   cursor: pointer;
@@ -58,7 +61,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
 }
 
 @media (max-width: 600px) {
@@ -213,7 +215,7 @@ nav > ul {
 }
 
 #how-it-works {
-  margin-top: 50px;
+  margin-top: 50;
   display: flex;
   justify-content: center;
 }
@@ -237,13 +239,13 @@ nav > ul {
   text-align: center;
   width: calc(100% / 3);
   margin: 10px;
-  border: 1px solid #000;
+  border: 1px solid white;
   border-radius: 3px;
 }
 
 .product > .level {
   background-color: #ddd;
-  color: black;
+  color: white;
   padding: 15px 0;
   width: 100%;
   text-transform: uppercase;
@@ -271,7 +273,6 @@ nav > ul {
 
 .product > button:hover {
   background-color: orange;
-  transition: background-color 1s;
 }
 
 @media (max-width: 800px) {
@@ -288,7 +289,6 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
   padding: 20px;
 }
 
@@ -306,5 +306,5 @@ footer > span {
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
-  color: #444;
+  color: white;
 }
